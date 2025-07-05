@@ -1,5 +1,5 @@
 ## Task
-The focus of this assignment was to create and design a website on the UoE server that allowed users to retrieve protein sequences for any chosen branch of the taxonomic tree, run conservation, PROSITE-motif, and other EMBOSS (or equivalent) analyses—complete with downloadable reports and plots — while offering a pre-processed glucose-6-phosphatase *Aves* dataset as a demo. The site was also had to give users the ability to revisit their previously generated data sets.
+The focus of this assignment was to create and design a website on the UoE server that allowed users to retrieve protein sequences for any chosen branch of the taxonomic tree, run conservation, PROSITE-motif, and other EMBOSS (or equivalent) analyses—complete with downloadable reports and plots — while offering a pre-processed glucose-6-phosphatase *Aves* dataset as a demo. The site also had to give users the ability to revisit their previously generated data sets.
 
 ## Script Details
 ### Front-End Scripts
