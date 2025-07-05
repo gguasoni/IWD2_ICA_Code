@@ -8,8 +8,8 @@ from Bio import SeqIO
 from Bio import Entrez
 import pandas as pd
 
-Entrez.email = "s2103976@ed.ac.uk"
-Entrez.api_key = "a35d95f229d686c815466cf03ee2ce419b08"
+Entrez.email = "<student_number>@ed.ac.uk"
+Entrez.api_key = ""
 
 def fetch_data_from_ncbi(protein_family, taxonomic_group):
     try:
