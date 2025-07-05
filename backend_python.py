@@ -22,8 +22,8 @@ protein_family = sys.argv[1] or "glucose-6-phosphatase"
 taxonomic_group = sys.argv[2] or "Aves"
 
 #1b  The necessary information to send the information to NCBI
-Entrez.email = "s2103976@ed.ac.uk"
-Entrez.api_key = "a35d95f229d686c815466cf03ee2ce419b08"
+Entrez.email = "<student_number>@ed.ac.uk"
+Entrez.api_key = ""
 
 #1c  Sending the initial query to NCBI to get the IDs
 search_handle = Entrez.esearch(db = "protein", term = f'"{taxonomic_group}"[Organism] AND "{protein_family}"[Protein]')
