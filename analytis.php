@@ -12,8 +12,8 @@ echo "<link rel = 'stylesheet' href = 'aesthetics2.css'>";
 // Setting up the navigation bar
 	echo "<h1 class = 'site title'>PROTEIGNOSIA</h1>";
 	echo "<div class = 'navbar'>";
-                echo "<a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/analytis.php'>Home</a>";
-                echo "<a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/statement_of_credit.html'>Statement of Credit</a>";
+                echo "<a href = 'https://bioinfmsc8.bio.ed.ac.uk/~<student number>/ICA/analytis.php'>Home</a>";
+                echo "<a href = 'https://bioinfmsc8.bio.ed.ac.uk/~<student_number>/ICA/statement_of_credit.html'>Statement of Credit</a>";
         echo "</div>";
 echo "<body>";
 		echo "<h4>Protei-: derived from 'proteios' (πρωτεῖος), Greek for 'primary'</h4>";
