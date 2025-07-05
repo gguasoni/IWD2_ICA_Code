@@ -17,3 +17,10 @@ The focus of this assignment was to create and design a website on the UoE serve
   - supplies the heavy-lifting routines for PROTEIGNOSIA: it aligns sequences with Clustal-O or MAFFT and plots similarity, scans FASTA input with EMBOSS patmatmotifs then converts the TSV to CSV, and runs EMBOSS pepstats for basic protein metrics—returning or saving each analysis in project-specific filenames so the main pipeline can zip them for download.
 - php_functions.php
   - bundles the small helpers the site relies on: id_maker() assigns visitors a persistent cookie-based user ID, and motifs_table_maker($pdo) sets up the MySQL table that stores PROSITE motif hits for later display and querying.
+
+## How I would improve this website:
+- Include a 'Help' page to guide the users on how to use the website and an explanation of output behaviour. 
+- Give the user the opportunity to choose whether they want a smaller number of retrieved proteins to save computational effort or retrieve all available proteins.
+- Create a 'Results' page that allows users to view their information on the site. This is currently not a possibility and users are forced to leave the site to view their downloaded results.
+- Link protein results to external databases (e.g. NCBI, Ensembl) for further exploration.
+- Create a 'Previous Searches' page that uses cookies to enable users to revisit previous searches and results. 
